@@ -129,9 +129,9 @@ model.add(Activation("relu"))
 model.add(Dense(128))
 model.add(Activation("relu"))
 
-#The output layer with 3 neurons
+#The output layer with 2 neurons
 
-model.add(Dense(3))
+model.add(Dense(2))
 model.add(Activation("softmax"))
 
 #compiling the model with some basic parameters
